@@ -1,0 +1,136 @@
+@font-face {
+    font-family: MainFont;
+    src: url('big_noodle_titling.ttf');
+}
+
+html {
+    font-family: Arial;
+    background-color: #e8ecef;
+    width: 100%;
+}
+
+body {
+    width: 100%;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#upperMenu {
+    font-family: MainFont;
+    font-size: 18pt;
+    text-align: center;
+    background-color: #f5f6f6;
+    height: 80px;
+    top: 0px;
+    width: 100%;
+    -webkit-box-shadow: 0px 1px 0px 0px rgba(81, 163, 231, 1);
+    -moz-box-shadow: 0px 1px 0px 0px rgba(81, 163, 231, 1);
+    box-shadow: 0px 1px 0px 0px rgba(81, 163, 231, 1);
+}
+
+#title {
+    position: absolute;
+    
+    color: #22497d;
+    left: 100px;
+    font-weight:lighter;
+}
+
+#com {
+    position: absolute;
+    font-weight:lighter;
+    left: 191px;
+    color: #006aaa;
+}
+
+#img {
+    position: absolute;
+    top: 10px;
+    color: #22497d;
+    left: 30px;
+
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: inline-table;
+    /* line-height: 50px; */
+}
+
+li {
+    float: left;
+    position: relative;
+    top: 50px;
+}
+
+li a {
+    color: #006aaa;
+    text-align: center;
+    padding: 3px 15px;
+    text-decoration: none;
+    margin: 0 0 3px 0;
+    
+}
+
+li a:hover:not(.active) {
+    background-color:#e3e3e3;
+    border-radius: 5px;
+    padding: 3px 15px;
+    
+}
+
+.active {
+    border-bottom: 2px solid #006aaa;
+}
+
+#choose {
+   
+    background-color: white;
+    width: 80%;
+    min-height: 700px;
+    height:auto;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    -webkit-box- shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 2px 2px 3px 0px rgba (0, 0, 0, 0.1);
+    border: 1px solid #cfd3d6;
+    
+}
+
+#header {
+    position: absolute;
+    background-color: #2196f3;
+    width: 80%;
+    height: 50px;
+    display: table;
+}
+
+#subtitle {
+    position: relative;
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+    left: 30px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+    font-weight: lighter;
+}
+
+#map{
+     
+    background: url("map.png") no-repeat center center;
+    margin-top:50px;
+    height:667px;
+    width:auto;
+}
